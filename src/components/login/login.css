@@ -1,0 +1,141 @@
+.login-title{
+    align-items: center;
+    background-color: #ffc070;
+    display: flex;
+    height: 120px;
+    justify-content: center;
+    left: 0;
+    padding:0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+.login-wrapper{
+    background-color: white;
+}
+.login-logo{
+  display: block;
+  max-height: 80px;
+  object-fit: contain;
+  width: auto;
+}
+.login-modal{
+    background-color: white;
+    font-size:20px;
+    height:fit-content;
+    width:300px;
+    border: 3px solid black;
+    padding:20px;
+    border-radius: 25px;
+    text-align: center;
+    font-family:"Verdana";
+    border: 3px solid #D9D9D9;
+    display:flex;
+    flex-direction: column;
+
+}
+.loginform{
+    margin: auto;
+    text-align: center;
+    padding: 30px;
+    font-size: 23px;
+    border: 3px solid #D9D9D9;
+    height: 400px;
+    width: 350px;
+    text-align:left;
+    border-radius: 25px;
+    display:flex;
+    flex-direction: column;
+    
+}
+
+.login-status{
+    font-size: .7em;
+  margin-bottom: 8px;
+}
+.login-innerform{
+    display:flex;
+    flex-direction: column;
+}
+.login-instructions{
+  background-color: #f8f7f7;
+  font-family: Verdana;
+  font-size: 1em;
+  height: 120px;
+  line-height: 120px;
+  margin-top: 120px;
+  text-align: center;
+}
+.login-text{
+    color:black;
+}
+
+.login-text:link { 
+    text-decoration: none; 
+  } 
+  .login-text:visited { 
+    text-decoration: none; 
+  } 
+  .login-text:hover { 
+    text-decoration: none; 
+  } 
+  .login-text:active { 
+    text-decoration: none; 
+  }
+button{
+background-color: black;
+color:white;
+border-radius: 5px;
+border: 0px;
+height:40px;
+font-size: 19px;
+margin-bottom: 20px;
+width: auto;
+}
+input{
+    width:300px;
+    border-radius: 5px;
+    height:30px;
+    width:auto;
+    flex-grow:1;
+}
+ div + input {
+    margin-bottom:35px ;
+}
+a{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+Link{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.login-bold{
+    font-weight: bold;
+}
+.login-smallbutton{
+    margin-top:auto;
+}
+#login-error{
+  margin-bottom: 20px;  
+}
+#login-errorMessage{
+    margin-bottom: 35px;
+}
+
+@media (max-width:639px)  { 
+    .loginform{
+      margin: auto;
+      text-align: center;
+      padding: 30px;
+      font-size: 23px;
+      border: 3px solid #D9D9D9;
+      height: fit-content;
+      width: 350px;
+      text-align:left;
+      border-radius: 25px;
+      display:flex;
+      flex-direction: column;
+      
+  }}
